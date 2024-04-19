@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Felipa);
+*{
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #ffffff;
+    color: #7b692e;
+    font-size: 20px;
+}
+
+.profile-container {
+    margin-top: 20px;
+}
+
+.text-primary {
+    font-family: 'Felipa', cursive, Arial;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sub-text {
+    font-size: 20px;
+}
+
+.paragraph-container,
+.timeline-container,
+.quote-container,
+.footnote {
+    margin: 30px 0;
+}
+
+.quote-name {
+    font-size: 24px;
+}
+
+.synopsis-text,
+.timeline-section,
+.blockquote {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.blockquote {
+    font-style: italic;
+}
+.img-fluid{
+    
+    width: 100%;
+    max-width: 1700px; 
+}
+.img-thumbnail{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-top: -200px;
+}
+
+@media screen and (max-width: 600px) {
+    .img-thumbnail{
+       
+        max-width: 150px;
+        margin-top: -100px;
+        
+    }
+  }
+
+  .slider {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: -130px;
+    transform: translateY(50%);
+    margin-bottom: 200px;
+  }
+
+ 
+  .slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  
+  .jose{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    height: auto;
+  }
+ 
+  .prev,
+.next {
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+.slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+ 
+
+

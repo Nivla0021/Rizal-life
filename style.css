@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Felipa);
+body{
+	background-color: #111;
+}
+
+.contents {
+	margin: 3%;
+	border-radius: 10px;
+	background-color: #f4f4f4;
+    width: 1584px;
+  }
+
+#header-image{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+#portrait{
+	height:25%;
+	width:25%;
+	display: block;
+	margin: -15% auto 0 auto;
+}
+
+.text-primary{
+	color: #c0b283;
+	font-family: 'Felipa', cursive, Arial;
+	font-size: 50px;
+	font-weight: bold;
+    margin-left: 650px;
+}
+
+
+
+.sub-text{
+	font-size: 25px;
+	font-family: Serif;
+	color: #999;
+}
+
+#name{
+	margin-top: 0;
+    margin-left: 700px;
+}
+
+#full-name{
+	margin-top: -10px;
+	margin-left: 520px;
+}
+
+.center{
+	padding-left: 5%;
+	padding-right: 3%;
+}
+
+.paragraph-container{
+	margin-top: 50px;
+}
+
+.year{
+	display: block;
+}
+
+.year-summary{
+	display: block;
+}
+
+hr{
+    height: 30px;
+    color: #999;
+    border-style: solid;
+    border-color: #373737;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.up-hr {
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.down-hr {
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+    margin-bottom: -50px;
+}
+
+p{
+	font-family: "Courier New", Courier, monospace;
+	padding-left: 3%;
+}
+
+li{
+	color: #373737;
+	font-family: "Courier New", Courier, monospace;
+	padding-left: 3%;
+}
+
+.contents{
+	padding-bottom: 50px;
+}
+
+.timeline-section{
+	padding-top: 30px;
+}
+
+blockquote{
+	margin-top: 30px;
+	font-style: italic;
+	
+}
+
+.quote-name{
+	font-family: 'Felipa', cursive, Arial;
+	float: right;
+	font-size: 30px;
+	padding-right: 2%;
+	color: #c0b283;
+}
+
+a{
+	color: #888;
+}
+
+
+
+
+
